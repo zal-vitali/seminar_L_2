@@ -27,10 +27,10 @@ else
         tmpnumber = number;
         while(tmpnumber >= 1000)
         {
-            tmpnumber = tmpnumber / 10;  
-            result = tmpnumber % 10;              
+            tmpnumber = tmpnumber / 10;           
         }
-        
+
+        result = tmpnumber % 10;  
     }
 
     Console.WriteLine($"Третья цифра числа {number}: {result}");
